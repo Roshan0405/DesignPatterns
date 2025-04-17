@@ -64,4 +64,9 @@ public class Builder {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public Student build() {
+        //return new Student(this);
+        return null;
+    }
 }
