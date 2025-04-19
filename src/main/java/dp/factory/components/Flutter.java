@@ -13,4 +13,7 @@ public class Flutter {
         System.out.println("Setting the theme");
     }
 
+    public UiFactory getFactory(SupportedPlatform platformName) {
+        return UiFactoryFactory.getUiFactoryUsingPlatformName(platformName);
+    }
 }
