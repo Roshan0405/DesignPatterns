@@ -15,6 +15,8 @@ public class Client {
 
         Student roshan = intStu.clone();
 
+        Student janardhan = stu.clone();
+
         System.out.println("Debug Here");
 
     }
